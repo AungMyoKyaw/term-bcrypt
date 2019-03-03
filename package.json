@@ -1,0 +1,36 @@
+{
+  "name": "term-bcrypt",
+  "version": "0.0.1",
+  "description": "Bcrypt CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "demo": "node cli.js --salt-rounds='10' --text='hello'"
+  },
+  "bin": {
+    "bcrypt": "./cli.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AungMyoKyaw/term-bcrypt.git"
+  },
+  "keywords": [
+    "Bcrypt-CLI",
+    "bcrypt-terminal"
+  ],
+  "author": "Aung Myo Kyaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AungMyoKyaw/term-bcrypt/issues"
+  },
+  "homepage": "https://github.com/AungMyoKyaw/term-bcrypt#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "ink": "^0.5.1",
+    "ink-text-input": "^2.0.0",
+    "meow": "^5.0.0"
+  }
+}
